@@ -70,6 +70,10 @@ button {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.hero {
+  padding-bottom: 188px;
+  padding-top: 188px;
+}
 
 /*--------Logo-------  */
 
@@ -212,6 +216,7 @@ button {
   background: var(--logo-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 0;
   padding-top: 16px;
   padding-right: 32px;
   padding-bottom: 16px;
@@ -261,6 +266,10 @@ button {
   color: var(--main-title-color);
   margin-bottom: 72px;
   text-align: center;
+}
+
+.features {
+  padding-bottom: 120px;
 }
 
 .features-list {
@@ -315,6 +324,7 @@ button {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  background: #ffffff;
 }
 
 .employees {
@@ -389,27 +399,45 @@ button {
 .main-list {
   display: flex;
   justify-content: center;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 49px;
 }
 
 .main-items:not(:last-child) {
   margin-right: 24px;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-bottom: 120px;
 }
+
 .portfolio-item {
   background: #ffffff;
-  border: 1px solid #e7e9fc;
-  flex-basis: calc ((100%-48)/3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .portfolio-example {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #e7e9fc;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e7e9fc;
+
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #e7e9fc;
+}
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.portfoliomb {
+  margin-bottom: 48px;
 }
